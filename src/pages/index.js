@@ -25,7 +25,7 @@ const Index = () => {
                 fadeIn="soft"
             >
                 <div className={heroCSS.imagenbg}>
-                    <h1 className={heroCSS.titulo}> Venta de casas y departamentos exclusivos </h1>
+                    <h1 className={heroCSS.titulo}>  </h1>
                 </div>
             </ImagenBackground>
             <main>

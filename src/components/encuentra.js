@@ -26,8 +26,8 @@ const Encuentra = () => {
     return ( 
         <ImageBackground tag="section" fluid={imagen.sharp.fluid} fadeIn="soft" >
             <div className={heroCSS.imagenbg}>
-                <h3 className={heroCSS.titulo}>Encuentra la casa de tus sueños</h3>
-                <p >15 de años de experiencia</p>
+                <h3 className={heroCSS.titulo}>Encuentra la web de tus sueños</h3>
+                <p >Sin años de experiencia ;D </p>
             </div>
         </ImageBackground>
      );
