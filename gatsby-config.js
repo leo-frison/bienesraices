@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: `https://bienes-raices-posta.herokuapp.com/`,
         queryLimit: 1000,
         contentTypes: ['propiedades', 'paginas', 'categorias']
       }
