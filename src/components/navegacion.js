@@ -35,7 +35,8 @@ const Navegacion = () => {
             <NavLink
                 to={'/'}
                 activeClassName="pagina-actual"
-            >Inicio</NavLink>
+            >Inicio
+            </NavLink>
         </Nav>
 
      );
