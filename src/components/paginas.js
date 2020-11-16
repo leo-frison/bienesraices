@@ -24,7 +24,7 @@ export const query = graphql`
                 contenido 
                 imagen {
                     sharp: childImageSharp {
-                        fluid(maxWidth: 1200) {
+                        fluid( maxWidth: 1500 ) {
                             ...GatsbyImageSharpFluid_withWebp
                         }
                     }
@@ -43,10 +43,12 @@ const Propiedades = ({data: {allStrapiPaginas: { nodes }}}) => {
                 <main className="contenedor">
                     <h1>{nombre}</h1>
                     <ContenidoPagina>
-                        <Image
-                            fluid={imagen.sharp.fluid}
-                        />
+
                         <p>{contenido} </p>
+                        <Image
+                          fluid={imagen.sharp.fluid}
+                        />
+
                     </ContenidoPagina>
                 </main>
 
